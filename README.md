@@ -26,3 +26,16 @@ Well add this to your /etc/hosts
 ```
 
 Ok, seriously now your done. Go get some shit done.
+
+Notes:
+Besure to NEVER commit directly to master branch, always create a branch for your changes and then create a pull request.
+
+Any changes you make to frontend files you should see propagated to
+http://dev.jesseme.com/
+
+In case you don't find the changes you make run:
+```
+vagrant destroy
+vagrant up
+```
+
