@@ -5,7 +5,7 @@ apt-get update
 apt-get install -y nodejs npm
 ln -s /usr/bin/nodejs /usr/bin/node
 npm config set loglevel warn
-npm install -g sails forever
+npm install -g sails pm2
 cd /home/vagrant/current/
 npm install
-forever start app.js
+pm2 start app.js
